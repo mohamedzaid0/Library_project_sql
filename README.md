@@ -15,7 +15,7 @@ The project demonstrates:
 
 The database consists of 6 tables linked by foreign keys to manage books, members, employees, and transactions.
 
-!(library_erd.png)
+!(library_erd)
 ---
 
 ## Database Setup Script
