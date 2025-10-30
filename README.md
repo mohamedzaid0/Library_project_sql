@@ -378,3 +378,19 @@ WHERE r.issued_id IS NULL AND CURRENT_DATE-i.issued_date >30
 GROUP BY 1
 ORDER BY 2 DESC;
 ```
+## 🏁 Project Conclusion & Skills Demonstrated
+
+This project provides a practical and comprehensive demonstration of database management for a library system, from relational schema design to complex querying.
+
+The 20 queries provided cover a wide range of real-world business operations and showcase proficiency in core and advanced SQL skills, including:
+
+* **Data Integrity:** Using Primary Keys (PK) and Foreign Keys (FK) to ensure relational integrity.
+* **Core CRUD Operations:** (INSERT, UPDATE, DELETE).
+* **Complex Queries:**
+    * Joins (INNER, LEFT, and Self-JOINs).
+    * Grouping (GROUP BY) and Sorting (ORDER BY).
+    * Advanced Filtering (HAVING).
+* **Stored Procedures:** Automating repetitive tasks like updating book statuses.
+* **Summary Tables (CTAS):** Creating new tables for reporting and analysis (e.g., `active_members` and `members_fines`).
+
+This project serves as a robust foundation. Future enhancements could include implementing **Triggers** to automatically update book availability upon return, or building an **API** to interact with this database.
